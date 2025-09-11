@@ -102,7 +102,8 @@
                 <section>
                     <header>
                         <h3>Train. Compete. Grow.</h3>
-                        <p>From young beginners to seasoned competitors, YJ Fencing Center offers classes tailored to every level. Build agility, discipline, and confidence while having fun on the piste.</p>
+                        <p>From young beginners to seasoned competitors, YJ Fencing Center offers classes tailored to
+                            every level. Build agility, discipline, and confidence while having fun on the piste.</p>
                     </header>
                     <div class="content">
                         <div class="gallery">
@@ -120,7 +121,8 @@
                 <section>
                     <header>
                         <h3>Training & Competition</h3>
-                        <p>At YJ Fencing Center, practice meets performance. Our fencers take part in local, regional, and national events — gaining experience, confidence, and lasting memories.</p>
+                        <p>At YJ Fencing Center, practice meets performance. Our fencers take part in local, regional,
+                            and national events — gaining experience, confidence, and lasting memories.</p>
                     </header>
                     <div class="content">
                         <div class="gallery">
@@ -136,7 +138,9 @@
                 <section>
                     <header>
                         <h3>Champions in the Making</h3>
-                        <p>From first touches to podium finishes, our students achieve milestones worth celebrating. Each victory — big or small — builds the foundation for growth, discipline, and resilience.</p>
+                        <p>From first touches to podium finishes, our students achieve milestones worth celebrating.
+                            Each victory — big or small — builds the foundation for growth, discipline, and resilience.
+                        </p>
                     </header>
                     <div class="content">
                         <div class="gallery">
@@ -159,7 +163,8 @@
                 <h2>Inside the Action</h2>
             </header>
             <div class="content">
-                <p><strong>A glimpse into the energy, focus, and camaraderie of our club. See our fencers in training, competition, and moments of triumph.</p>
+                <p><strong>A glimpse into the energy, focus, and camaraderie of our club. See our fencers in training,
+                        competition, and moments of triumph.</p>
                 <ul class="actions">
                     <li><a href="#" class="button primary large">Get Started</a></li>
                     <li><a href="#" class="button large">Learn More</a></li>
@@ -441,24 +446,28 @@ print 'Sorted in ' + i + ' iterations.';</code></pre>
                 <h2>Get in touch</h2>
             </header>
             <div class="content">
-                <p>Your journey begins here. Whether you dream of competition or simply want to discover a new passion, we welcome you to take your first step today.</p>
-                <form>
+                <p>Your journey begins here. Whether you dream of competition or simply want to discover a new passion,
+                    we welcome you to take your first step today.</p>
+                <form action="https://formspree.io/f/xkgvydzo" method="POST" id="contact-form">
                     <div class="fields">
                         <div class="field half">
-                            <input type="text" name="name" id="name" placeholder="Name" />
+                            <input type="text" name="name" id="name" placeholder="Name" required />
                         </div>
                         <div class="field half">
-                            <input type="email" name="email" id="email" placeholder="Email" />
+                            <input type="email" name="email" id="email" placeholder="Email" required />
                         </div>
                         <div class="field">
-                            <textarea name="message" id="message" placeholder="Message" rows="7"></textarea>
+                            <textarea name="message" id="message" placeholder="Message" rows="7" required></textarea>
                         </div>
                     </div>
                     <ul class="actions">
                         <li><input type="submit" value="Send Message" class="button primary" /></li>
                     </ul>
                 </form>
+                <div id="response-message"></div> <!-- For displaying success or error message -->
             </div>
+
+
             <footer>
                 <ul class="items">
                     <li>
